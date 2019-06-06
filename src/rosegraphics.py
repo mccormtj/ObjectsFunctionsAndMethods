@@ -1786,7 +1786,7 @@ class SimpleTurtle(object):
        boris.end_fill()
     """
 
-    def __init__(self, shape='classic'):
+    def __init__(self, shape: object = 'classic') -> object:
         """
         What comes in:
           A turtle.Shape that determines how the Turtle looks.  Defaults to
