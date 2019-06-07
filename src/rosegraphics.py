@@ -1816,12 +1816,13 @@ class SimpleTurtle(object):
         self._update_real_turtle()
         self._turtle.forward(distance)
 
-    def backward(self, distance):
+    def backward(self, distance: object) -> object:
         """
         Makes this SimpleTurtle go backward the given distance
         (in pixels).  Example (assuming  sally  is an rg.SimpleTurtle):
 
         sally.backward(200)
+        :rtype: object
 
         """
         self._update_real_turtle()
